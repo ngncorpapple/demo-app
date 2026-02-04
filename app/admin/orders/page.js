@@ -50,7 +50,9 @@ export default function OrdersPage() {
               Theo dõi trạng thái đơn và thời gian xử lý theo ca làm.
             </p>
           </div>
-          <button className="button">Tạo đơn nhanh</button>
+          <a className="button" href="/admin/orders/new">
+            Tạo đơn nhanh
+          </a>
         </div>
         <div className="grid cols-3" style={{ marginBottom: "24px" }}>
           {[
